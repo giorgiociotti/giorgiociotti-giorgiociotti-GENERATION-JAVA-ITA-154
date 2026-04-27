@@ -10,15 +10,15 @@ public class AvvioVariabili {
         /*
          *  1) 8 TIPI PRIMITIVI, tra essi abbiamo
 	 * - tipi numerici
-	 * int    -> da -2,147,483,648 a 2,147,483,647
-	 * short  -> da -32,768 a 32,767
-	 * byte   -> da -128 a 127
-	 * long   -> da -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
-	 * float  -> circa da ±1.4E-45 a ±3.4E+38 (precisione ~6-7 cifre)
+	 * int -> da -2,147,483,648 a 2,147,483,647
+	 * short -> da -32,768 a 32,767
+	 * byte -> da -128 a 127
+	 * long -> da -9,223,372,036,854,775,808 a 9,223,372,036,854,775,807
+	 * float -> circa da ±1.4E-45 a ±3.4E+38 (precisione ~6-7 cifre)
 	 * double -> circa da ±4.9E-324 a ±1.7E+308 (precisione ~15 cifre)
 	 * 
 	 * - tipi caratteri
-	 * char   -> da 0 a 65,535 (caratteri Unicode)
+	 * char -> da 0 a 65,535 (caratteri Unicode)
 	 * 
 	 * - tipi booleani
 	 * boolean -> true / false
