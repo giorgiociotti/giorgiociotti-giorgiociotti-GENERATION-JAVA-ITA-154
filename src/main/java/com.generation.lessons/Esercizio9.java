@@ -1,3 +1,5 @@
+package com.generation.lessons;
+
 import java.util.Scanner;
 
 public class Esercizio9 {
@@ -10,8 +12,7 @@ public class Esercizio9 {
         System.out.print("Inserisci il reddito familiare annuo (€): ");
         double reddito = scanner.nextDouble();
         
-        String messaggio = (eta < 13 || reddito < 20000)? "Abbonamento richiesto 15 euro al mese"
-                                   : "Abbonamento richiesto 50 euro al mese";
+        String messaggio = (eta < 13 || reddito < 20000)? "Abbonamento richiesto 15 euro al mese": "Abbonamento richiesto 50 euro al mese";
         
         System.out.println(messaggio);
         

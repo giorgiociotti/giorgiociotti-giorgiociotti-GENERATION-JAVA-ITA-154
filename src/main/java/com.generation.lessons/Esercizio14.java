@@ -2,7 +2,7 @@ package com.generation.lessons;
 
 import java.util.Scanner;
 
-public class PalazzoMediceo {
+public class Esercizio14 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -18,18 +18,18 @@ public class PalazzoMediceo {
         System.out.print("Inserisci l'orario di visita (es. 10 per le 10:00): ");
         int ora = scanner.nextInt();
         
+        scanner.close();
+        
         if (ora < 9 || ora >= 18) {
             System.out.println("Errore: il Palazzo Mediceo è aperto dalle 9:00 alle 18:00.");
         } else {
             double prezzo = (eta > 65 || eta < 12) ? 5 : 10;
             
-         
-            System.out.println("| Nome:   " + nome);
-            System.out.println("| Data:   " + data);
-            System.out.println("| Ora:    " + ora + ":00");
-            System.out.println("| Prezzo: " + prezzo + " euro");
+            System.out.println(" Nome:   " + nome);
+            System.out.println(" Data:   " + data);
+            System.out.println(" Ora:    " + ora + ":00");
+            System.out.println(" Prezzo: " + prezzo + " euro");
+            
         }
-        
-        scanner.close();
     }
 }

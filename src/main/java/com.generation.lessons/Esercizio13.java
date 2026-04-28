@@ -26,13 +26,11 @@ public class Esercizio13 {
                 break;
         }
         
-        System.out.println("+---------------------------------+");
-        System.out.println("|        BIGLIETTO MUSEO          |");
-        System.out.println("+---------------------------------+");
-        System.out.println("| Nome:   " + nome);
-        System.out.println("| Data:   " + data);
-        System.out.println("| Prezzo: " + prezzo + " euro");
-        System.out.println("+---------------------------------+");
+        
+        System.out.println(" Nome:   " + nome);
+        System.out.println(" Data:   " + data);
+        System.out.println(" Prezzo: €" + prezzo);
+
         
         scanner.close();
     }
