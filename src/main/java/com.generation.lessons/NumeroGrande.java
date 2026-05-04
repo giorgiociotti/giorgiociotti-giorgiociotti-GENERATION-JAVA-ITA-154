@@ -17,6 +17,11 @@ public class NumeroGrande {
             System.out.print("Numero: ");
             int numero = scanner.nextInt();
             
+            if (numero < 0) {
+                System.out.println("Numero negativo, programma terminato.");
+                break;
+            }
+            
             if (count == 0 || numero > massimo)
                 massimo = numero;
             
