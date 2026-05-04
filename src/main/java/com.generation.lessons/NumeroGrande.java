@@ -8,21 +8,25 @@ public class NumeroGrande {
         int count = 0;
         int massimo = 0;
         double somma = 0;
+        boolean continua = true;
         
-        System.out.println("Inserisci numeri interi (scrivi 0 per terminare):");
+        System.out.println("Inserisci numeri interi:");
         
-        while (true) {
+        while (continua) {
             System.out.print("Numero: ");
             int numero = scanner.nextInt();
-            
-            if (numero == 0)
-                break;
             
             if (count == 0 || numero > massimo)
                 massimo = numero;
             
             somma += numero;
             count++;
+            
+            System.out.print("Vuoi continuare? (si/no): ");
+            String risposta = scanner.next();
+            
+            if (risposta.equals("no"))
+                continua = false;
         }
         
         if (count == 0) {
