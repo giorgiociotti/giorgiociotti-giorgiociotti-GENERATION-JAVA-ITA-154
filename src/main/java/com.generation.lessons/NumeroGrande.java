@@ -29,9 +29,9 @@ public class NumeroGrande {
             count++;
             
             System.out.print("Vuoi continuare? (si/no): ");
-            String risposta = scanner.next().toLowerCase();
+            String risposta = scanner.next();
             
-            if (risposta.equals("no"))
+            if (risposta.equalsIgnoreCase("no"))
                 continua = false;
         }
         
