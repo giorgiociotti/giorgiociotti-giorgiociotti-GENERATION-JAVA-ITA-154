@@ -13,6 +13,7 @@ public class NumeroGrande {
         System.out.println("Inserisci numeri interi:");
         
         while (continua) {
+            
             System.out.print("Numero: ");
             int numero = scanner.nextInt();
             
@@ -23,7 +24,7 @@ public class NumeroGrande {
             count++;
             
             System.out.print("Vuoi continuare? (si/no): ");
-            String risposta = scanner.next();
+            String risposta = scanner.next().toLowerCase();
             
             if (risposta.equals("no"))
                 continua = false;
