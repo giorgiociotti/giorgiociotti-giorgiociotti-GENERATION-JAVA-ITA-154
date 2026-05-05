@@ -1,4 +1,4 @@
-package com.generation.lessons;
+package com.generation.lessons.Utility;
 
 public class MathUtils {
     
