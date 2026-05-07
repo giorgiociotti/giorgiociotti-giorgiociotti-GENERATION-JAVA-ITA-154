@@ -45,6 +45,17 @@ public class MathUtils {
     public static boolean isInRangeDouble(double n, double min, double max) {
         return n >= min && n <= max;
     }
-    
+    public static double calcolaMedia(int[] numeri) {
+        if (numeri == null || numeri.length == 0) {
+            return 0; // Gestione array vuoto
+        }
+        
+        double somma = 0;
+        for (int num : numeri) {
+            somma += num;
+        }
+        
+        return somma / numeri.length;
+    }
     
 }
