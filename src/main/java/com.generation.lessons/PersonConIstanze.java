@@ -2,18 +2,11 @@ package com.generation.lessons;
 
 public class PersonConIstanze {
     public static void main(String[] args) {
-        Person p1 =new Person();
-        p1.nome="mario";
-        p1.cognome="rossi";
-        p1.giornoDiCompleanno="10/01/1990";
         
-        Person p2 =new Person();
-        p2.nome="franco";
-        p2.cognome="franco";
-        p2.giornoDiCompleanno="01/01/2000";
+        Person p1 = new Person("mario", "rossi", "10/01/1990", "M");
+        Person p2 = new Person("franco", "bianchi", "01/01/2000", "M");
         
-        System.out.println("benvenuti" + p1.nome + "e" + p2.nome);
-        
+        System.out.println(p1);
+        System.out.println(p2);
     }
-    
 }
