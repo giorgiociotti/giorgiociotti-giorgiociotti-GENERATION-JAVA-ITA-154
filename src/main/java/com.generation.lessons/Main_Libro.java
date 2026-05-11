@@ -2,7 +2,6 @@ package com.generation.lessons;
 
 public class Main_Libro {
     public static void main(String[] args) {
-        System.out.println("========== TEST CLASSE LIBRO ==========\n");
         
         System.out.println(">> Costruttore vuoto:");
         Libro l1 = new Libro();
@@ -41,6 +40,5 @@ public class Main_Libro {
         
         System.out.println("\n>> Totale libri creati (proprietà statica): " + Libro.getContatoreLibri());
         
-        System.out.println("\n========== FINE TEST ==========");
     }
 }
