@@ -1,6 +1,6 @@
 package com.generation.lessons;
 
-public class Main {
+public class Main_Carta {
     public static void main(String[] args) {
         House casa = new House();
         casa.address = "Via Verdi 100, Cassano";
