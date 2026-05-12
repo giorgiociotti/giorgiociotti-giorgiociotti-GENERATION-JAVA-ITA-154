@@ -2,10 +2,10 @@ package com.generation.lessons;
 
 public class Person {
     
-    private String nome;
-    private String cognome;
-    private String giornoDiCompleanno;
-    private String genere;
+    protected String nome;
+    protected String cognome;
+    protected String giornoDiCompleanno;
+    protected String genere;
     
     public Person(String n, String c, String gdb, String g) {
         setNome(n);
@@ -75,8 +75,8 @@ public class Person {
     @Override
     public String toString() {
         return "Nome: " + getNome() +
-                       ", Cognome: " + getCognome() +
-                       ", Compleanno: " + getGiornoDiCompleanno() +
-                       ", Genere: " + getGenere();
+        ", Cognome: " + getCognome() +
+        ", Compleanno: " + getGiornoDiCompleanno() +
+        ", Genere: " + getGenere();
     }
 }
