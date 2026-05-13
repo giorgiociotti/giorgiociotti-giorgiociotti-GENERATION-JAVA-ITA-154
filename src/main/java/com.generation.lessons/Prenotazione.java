@@ -18,7 +18,6 @@ public class Prenotazione {
         this.costoTotale = costoTotale;
         this.attiva = true;
     }
-    
     public String getNomeCliente() { return nomeCliente; }
     public int getNumeroNotti() { return numeroNotti; }
     public int getNumeroOspiti() { return numeroOspiti; }
