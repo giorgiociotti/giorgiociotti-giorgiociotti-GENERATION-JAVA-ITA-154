@@ -42,4 +42,12 @@ public class Employee extends Person {
                        ", Ruolo: " + getRole() +
                        ", Salario: " + getSalary();
     }
+    @Override
+    public boolean equals(Object obj) {
+        if (!super.equals(obj)) return false;
+        if (!(obj instanceof Employee)) return false;
+        
+        Employee other = (Employee) obj;
+        return getSalary() == other.getSalary() && getRole().equals(other.getRole());
+    }
 }

@@ -79,4 +79,17 @@ public class Person {
         ", Compleanno: " + getGiornoDiCompleanno() +
         ", Genere: " + getGenere();
     }
+    
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (!(obj instanceof Person)) return false;
+        
+        Person other = (Person) obj;
+        return getNome().equals(other.getNome()) &&
+                       getCognome().equals(other.getCognome()) &&
+                       getGiornoDiCompleanno().equals(other.getGiornoDiCompleanno()) &&
+                       getGenere().equals(other.getGenere());
+    }
 }

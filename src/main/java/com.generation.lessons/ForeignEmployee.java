@@ -68,6 +68,15 @@ package com.generation.lessons;
             fe.setRole("Senior Developer");
             System.out.println("\nDopo promozione:");
             System.out.println(fe);
+            
+            
+            
+            
+                Employee a = new Employee("Mario", "Rossi", "10/01/1990", "M", 2000.00, "Developer");
+                Employee b = new Employee("Mario", "Rossi", "10/01/1990", "M", 2000.00, "Developer");
+                
+                System.out.println(a.equals(b));
+            
         }
     }
 
