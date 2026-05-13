@@ -15,11 +15,9 @@ public class CameraFamily extends CameraHotel {
         this.supplementoPulizia = supplementoPulizia;
     }
     
-    // Getters
     public int getNumeroLettiBambini() { return numeroLettiBambini; }
     public double getSupplementoPulizia() { return supplementoPulizia; }
     
-    // Setters
     public void setNumeroLettiBambini(int n) { this.numeroLettiBambini = n; }
     public void setSupplementoPulizia(double s) { this.supplementoPulizia = s; }
     
